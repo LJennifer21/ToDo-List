@@ -1,0 +1,80 @@
+
+body {
+        background-color: rgb(101, 121, 130);
+        display: flex;
+       
+        justify-content: center;
+      
+        padding: 100px;
+       
+
+    }
+
+    /* algining text*/
+    .title h1{
+        text-align: center;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 380px;
+        height: 450px;
+ 
+        
+    }
+
+    /* container*/
+   .item-container {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(191, 191, 153);
+    border-radius: 5px;
+ 
+    background-color: aliceblue;
+    
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    
+    
+    } 
+    
+    /*input and buttons*/
+    .form-container {
+    display: flex;
+    flex-direction: row;
+    
+    padding-bottom: 20px;
+    
+   
+    
+     /* Center the form elements (input and button) */
+   
+    }
+    .form-container #button, .form-container #todo-items{
+        padding-right: 5px;
+    
+       
+    }
+    .form-container #item-button, 
+    .form-container #remove-button, 
+    .form-container #remove-all-button{
+        background-color:rgb(191, 191, 153); 
+        border-radius: 5px;
+    }
+    .form-container #item{
+        border-radius: 5px;
+        
+
+    }
+    
+    
+    
+  
+
+    
+
+
+    
+    
