@@ -52,13 +52,13 @@ body {
      /* Center the form elements (input and button) */
    
     }
-    .form-container #button, .form-container #todo-items{
+    .button, .form-container #todo-items{
         padding-right: 5px;
     
        
     }
     .form-container #item-button, 
-    .form-container #remove-button, 
+
     .form-container #remove-all-button{
         background-color:rgb(191, 191, 153); 
         border-radius: 5px;
@@ -68,6 +68,7 @@ body {
         
 
     }
+
     
     
     
