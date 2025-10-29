@@ -40,6 +40,7 @@ const itemsAdd = (event) => {
     newItemDiv.style.display = 'flex';
     newItemDiv.style.alignItems = 'center';
     removeButton.style.display ='none';
+    newItem.style.paddingLeft = '3px';
  
 
     removeButton.addEventListener("click", ()=>{

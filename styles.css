@@ -20,6 +20,7 @@ body {
         align-items: left;
         width: 380px;
         height: 450px;
+        margin-left: 35px;
  
         
     }
@@ -54,11 +55,11 @@ body {
     }
     .button, .form-container #todo-items{
         padding-right: 5px;
+        
     
        
     }
     .form-container #item-button, 
-
     .form-container #remove-all-button{
         background-color:rgb(191, 191, 153); 
         border-radius: 5px;
